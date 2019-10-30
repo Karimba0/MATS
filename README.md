@@ -53,3 +53,9 @@ Then run the whole evt.r program.
 * feature importance and the the creation of the data files are in the wgan directory
 * Values for mean std and VAR have fixed rolling_var when generating the data files
 * For networks rolling_var can be reset because it gets calculated again
+
+1. Item 1
+1. Item 2
+1. Item 3
+   1. Item 3a
+   1. Item 3b
