@@ -35,11 +35,11 @@
 5. To do the dynamic quantile test and the conditional covergage test specify the safe path of cond_cov.csv(output of calculate_VaR.py) and set rolling to False
 
 ### EVT:
-Packages needed:
-evir
-rugarch
-ggplot2
-xts
+#### Packages needed:
+* evir
+* rugarch
+* ggplot2
+* xts
 
 Comments in code describe what needs to be set before running.
 Then run the whole evt.r program.
