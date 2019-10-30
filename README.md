@@ -47,6 +47,7 @@ Then run the whole evt.r program.
 ### Comments and references
 * plots for fourier and feature importance from https://github.com/borisbanushev/stockpredictionai
 * parts of the code for WGAN from https://github.com/LynnHo/DCGAN-LSGAN-WGAN-GP-DRAGAN-Tensorflow-2
+* Dynamic quantile test and condidtional coverage test from https://github.com/BayerSe/VaR-Backtesting
 * feature importance and the the creation of the data files are in the wgan directory
 * Values for mean std and VAR have fixed rolling_var when generating the data files
 * For networks rolling_var can be reset because it gets calculated again
