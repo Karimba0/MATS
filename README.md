@@ -45,9 +45,10 @@ Comments in code describe what needs to be set before running.
 Then run the whole evt.r program.
 
 ### Comments and references
-* plots for fourier and feature importance from https://github.com/borisbanushev/stockpredictionai
-* parts of the code for WGAN from https://github.com/LynnHo/DCGAN-LSGAN-WGAN-GP-DRAGAN-Tensorflow-2
-* Dynamic quantile test and condidtional coverage test from https://github.com/BayerSe/VaR-Backtesting
-* feature importance and the the creation of the data files are in the wgan directory
-* Values for mean std and VAR have fixed rolling_var when generating the data files
-* For networks rolling_var can be reset because it gets calculated again
+* plots for fourier and feature importance from https://github.com/borisbanushev/stockpredictionai .
+* parts of the code for WGAN from https://github.com/LynnHo/DCGAN-LSGAN-WGAN-GP-DRAGAN-Tensorflow-2 .
+* Dynamic quantile test and condidtional coverage test from https://github.com/BayerSe/VaR-Backtesting .
+* feature importance and the the creation of the data files are in the wgan directory.
+* Values for mean std and VAR have fixed rolling_var when generating the data files.
+* For networks rolling_var can be reset because it gets calculated again.
+* The dynamic quantile test and conditional coverage test, test for the quantiles 0.09 and 0.91 because 0.1 and 0.9 was not possible to implement as described in the thesis.
