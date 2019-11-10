@@ -183,7 +183,7 @@ if __name__ == "__main__":
         csv_name = 'cond_cov_r.csv'
     else:
         csv_name = 'cond_cov.csv'
-    os.chdir(r"C:\Python\Master_thesis\wgan\ORCL")
+    os.chdir(r"path_to_file")
 
     if lstm:
         low_str = ('var_n_01', 'var_n_025', 'var_n_05', 'var_n_1', 'var_t_01', 'var_t_025', 'var_t_05', 'var_t_1')
